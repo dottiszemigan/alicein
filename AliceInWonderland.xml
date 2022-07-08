@@ -9,9 +9,7 @@
             <titleStmt>
                 <title type="statement">ALICE'S ADVENTURES IN WONDERLAND</title>
                 <title type="distinctive">THE "STORYLAND" SERIES</title>
-                <author>Carroll, Lewis, 1832-1898.</author>
-                <!--<editor>Heminge, John, approximately 1556-1630</editor>
-                <editor>Condell, Henry, -1627</editor> -->
+		<author>Carroll, Lewis, 1832-1898.</author>
                 <respStmt xml:id="PGB">
                     <orgName ref="https://www.gutenberg.org/">The Project Gutenberg</orgName>
                     <resp>electronic edition</resp>
@@ -41,25 +39,7 @@
                     <title type="statement">ALICE'S ADVENTURES IN WONDERLAND</title>
                    
                     <title type="distinctive">THE STORYLAND SERIES</title>
-                </bibl>
-              <!--  <msDesc>
-                   <msIdentifier>
-                    <history>
-                        <origin>
-                            <p>For further details on the printing of this item see Hinman, Charleton. The
-                                printing and proof-reading of the First Folio of Shakespeare: Oxford, 1963.
-                            </p>
-                        </origin>
-                    </history>
-                    <additional>
-                        <surrogates>
-                            <listBibl>
-                                <bibl type="digitalFacsimile">Digital facsimile images available at: <ref target="http://firstfolio.bodleian.ox.ac.uk/">http://firstfolio.bodleian.ox.ac.uk/</ref>.</bibl>
-                            </listBibl>
-                        </surrogates>
-                    </additional>
-                   </msIdentifier>
-                </msDesc> -->
+		   </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
