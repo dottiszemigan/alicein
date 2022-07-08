@@ -6,7 +6,7 @@
     
     exclude-result-prefixes="xs"
     version="2.0">
-    
+    <xsl:output method="html"/>
     <xsl:template match="tei:TEI">
         <html>
             <head>
@@ -14,6 +14,30 @@
             </head>
             <body>
                 <xsl:apply-templates/>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                            <div id="openseadragon" style="height: 300px;"></div>
+                            <script src="https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/openseadragon.min.js"></script>
+                            <script type="text/javascript">
+                                var viewer = OpenSeadragon({
+                                id: "openseadragon",
+                                prefixUrl: "https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/images/",
+                                tileSources:   [{
+                                "@context": "http://iiif.io/api/image/2/context.json",
+                                "@id": "<xsl:value-of select="//tei:pb/@facs"/>"
+                                "profile": [ "http://iiif.io/api/image/2/level2.json" ],
+                                "protocol": "http://iiif.io/api/image",
+                                "tiles": [{
+                                "scaleFactors": [ 1, 2, 4, 8, 16, 32 ],
+                                "width": 1024
+                                }]
+                                }]
+                                });
+                            </script>
+                        </div>
+                    </div>
+                </div>
             </body>
         </html>
     </xsl:template>
@@ -25,19 +49,7 @@
     </xsl:template>
     
     <xsl:template match="//tei:p">
-        <p><xsl:apply-templates/></p>
-    </xsl:template>
-    
-    <xsl:template match="//tei:pb">
-        <xsl:choose>
-            <xsl:when test="@pb='facs'">
-                <span style="center; position: absolute;">
-                    <xsl:apply-templates/></span>
-            </xsl:when>
-            <xsl:otherwise>
-                <s><xsl:apply-templates/></s>
-            </xsl:otherwise>
-        </xsl:choose>
+        <p><xsl:apply-templates/></p><br/>
     </xsl:template>
     
 </xsl:stylesheet>
