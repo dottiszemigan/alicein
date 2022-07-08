@@ -9,7 +9,7 @@
             <titleStmt>
                 <title type="statement">ALICE'S ADVENTURES IN WONDERLAND</title>
                 <title type="distinctive">THE "STORYLAND" SERIES</title>
-		<author>Carroll, Lewis, 1832-1898.</author>
+                <author>Carroll, Lewis, 1832-1898.</author>
                 <respStmt xml:id="PGB">
                     <orgName ref="https://www.gutenberg.org/">The Project Gutenberg</orgName>
                     <resp>electronic edition</resp>
@@ -37,9 +37,9 @@
                 <bibl>
                     <author>Carroll, Lewis, 1832-1898.</author>
                     <title type="statement">ALICE'S ADVENTURES IN WONDERLAND</title>
-                   
+                    
                     <title type="distinctive">THE STORYLAND SERIES</title>
-		   </bibl>
+                </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -104,7 +104,7 @@
                 <p><quote>Not like cats!</quote> cried the <name ref="#AiW-Mouse" type="animal">Mouse</name> in a shrill, passionate voice. <quote>Would <emph>you</emph> like cats, if you were me?</quote></p>
                 <p><quote>Well, perhaps not,</quote> said <name ref="#AiW-Alice" type="person">Alice</name> in a soothing tone; <quote>don't be angry about it. And yet I wish I could show you our cat Dinah. I think you'd take a fancy to cats, if you could only see her. She is such a dear, quiet thing.</quote> The <name ref="#AiW-Mouse" type="animal">Mouse</name> was bristling all over and she felt certain it must be really offended. <quote>We won't talk about her any more, if you'd rather not.</quote></p>
                 <p><quote>We, indeed!</quote> cried the <name ref="#AiW-Mouse" type="animal">Mouse</name>, who was trembling down to the end of its tail. <quote>As if I would talk on such a subject! Our family always <emph>hated</emph> cats—nasty, low, vulgar things! Don't let me hear the name again!</quote></p>
-                <pb/>
+                <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/333dbc25-9ef8-4654-8cc0-e5c88a4fb758"/>
                 <p><quote>I won't indeed!</quote> said <name ref="#AiW-Alice" type="person">Alice</name>, in a great hurry to change the subject of conversation. <quote>Are you—are you fond—of—of dogs? There is such a nice little dog near our house, I should like to show you! It kills all the rats and—oh, dear!</quote> cried Alice in a sorrowful tone. <quote>I'm afraid I've offended it again!</quote> For the <name ref="#AiW-Mouse" type="animal">Mouse</name> was swimming away from her as hard as it could go, and making quite a commotion in the pool as it went.</p>
                 <p>So she called softly after it, <quote><name ref="#AiW-Mouse" type="animal">Mouse</name> dear! Do come back again, and we won't talk about cats, or dogs either, if you don't like them!</quote> When the <name ref="#AiW-Mouse" type="animal">Mouse</name> heard this, it turned 'round and swam slowly back to her; its face was quite pale, and it said, in a low, trembling voice, <quote>Let us get to the shore and then I'll tell you my history and you'll understand why it is I hate cats and dogs.</quote></p>
                 <p>It was high time to go, for the pool was getting quite crowded with the birds and animals that had fallen into it; there were a <name ref="#AiWDuck" type="animal">Duck</name> and a <name ref="#AiWDodo" type="animal">Dodo</name>, a <name ref="#AiWLory" type="animal">Lory</name> and an <name ref="#AiWEaglet" type="animal">Eaglet</name>, and several other curious creatures. <name ref="#AiW-Alice" type="person">Alice</name> led the way and the whole party swam to the shore.</p>
@@ -116,7 +116,7 @@
                 <p> <quote>He took me for his housemaid!</quote> said <name ref="#AiW-Alice" type="person">Alice</name>, as she ran off. <quote>How surprised he'll be when he finds out who I am!</quote> As she said this, she came upon a neat little house, on the door of which was a bright brass plate with the name <quote>W. RABBIT</quote> engraved upon it. She went in without knocking and hurried upstairs, in great fear lest she should meet the real Mary Ann and be turned out of the house before she had found the fan and gloves. </p>
                 <p>By this time, <name ref="#AiW-Alice" type="person">Alice</name> had found her way into a tidy little room with a table in the window, and on it a fan and two or three pairs of tiny white kid-gloves; she took up the fan and a pair of the gloves and was just going to leave the room, when her eyes fell upon a little bottle that stood near the looking-glass. She uncorked it and put it to her lips, saying to herself, <quote>I do hope it'll make me grow large again, for, really, I'm quite tired of being such a tiny little thing!</quote></p>
                 <p>Before she had drunk half the bottle, she found her head pressing against the ceiling, and had to stoop to save her neck from being broken. She hastily put down the bottle, remarking, <quote>That's quite enough—I hope I sha'n't grow any more.</quote> </p>
-                <p>Alas! It was too late to wish that! She went on growing and growing and very soon she had to kneel down on the floor. Still she went on growing, and, as a last resource, she put one arm out of the window and one foot up the chimney, and said to herself, <quote>Now I can do no more, whatever happens. What <emph>will</emph> become of me?</quote> </p> <pb/>
+                <p>Alas! It was too late to wish that! She went on growing and growing and very soon she had to kneel down on the floor. Still she went on growing, and, as a last resource, she put one arm out of the window and one foot up the chimney, and said to herself, <quote>Now I can do no more, whatever happens. What <emph>will</emph> become of me?</quote> </p> <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/cfb37cc0-2cf3-4054-a7ca-4aa4b2e3c0df/info.json"/>
                 <p>Luckily for <name ref="#AiW-Alice" type="person">Alice</name>, the little magic bottle had now had its full effect and she grew no larger. After a few minutes she heard a voice outside and stopped to listen. </p>
                 <p><quote>Mary Ann! Mary Ann!</quote> said the voice. <quote>Fetch me my gloves this moment!</quote> Then came a little pattering of feet on the stairs. <name ref="#AiW-Alice" type="person">Alice</name> knew it was the <name ref="#AiW-White-Rabbit" type="animal">Rabbit</name> coming to look for her and she trembled till she shook the house, quite forgetting that she was now about a thousand times as large as the <name ref="#AiW-White-Rabbit" type="animal">Rabbit</name> and had no reason to be afraid of it. </p>
                 <p>Presently the <name ref="#AiW-White-Rabbit" type="animal">Rabbit</name> came up to the door and tried to open it; but as the door opened inwards and <name ref="#AiW-Alice" type="person">Alice</name>'s elbow was pressed hard against it, that attempt proved a failure. <name ref="#AiW-Alice" type="person">Alice</name> heard it say to itself, <quote>Then I'll go 'round and get in at the window.</quote> </p>
@@ -142,7 +142,7 @@
                 <p>At last the <name ref="#AiW-Caterpillar" type="animal">Caterpillar</name> took the hookah out of its mouth and addressed <name ref="#AiW-Alice" type="person">Alice</name> in a languid, sleepy voice.</p>
                 <p><quote>Who are <emph>you</emph> ?</quote>said the <name ref="#AiW-Caterpillar" type="animal">Caterpillar</name>.</p>
                 <p><name ref="#AiW-Alice" type="person">Alice</name> replied, rather shyly, <quote>I—I hardly know, sir, just at present—at least I know who I was when I got up this morning, but I think I must have changed several times since then.</quote></p>
-                <p><quote>What do you mean by that?</quote> said the <name ref="#AiW-Caterpillar" type="animal">Caterpillar</name>, sternly. <quote>Explain yourself!</quote></p> <pb/>
+                <p><quote>What do you mean by that?</quote> said the <name ref="#AiW-Caterpillar" type="animal">Caterpillar</name>, sternly. <quote>Explain yourself!</quote></p> <pb facs="https://iiif.bodleian.ox.ac.uk/iiif/image/3aff8c83-7dfb-4d6c-b15a-c2b40771c57c/info.json"/>
                 <p><quote>I can't explain <emph>myself</emph>, I'm afraid, sir,</quote> said <name ref="#AiW-Alice" type="person">Alice</name>, <quote> because I'm not myself, you see—being so many different sizes in a day is very confusing.</quote> She drew herself up and said very gravely, <quote>I think you ought to tell me who <emph>you</emph> are, first.</quote></p>
                 <p><quote>Why?</quote> said the <name ref="#AiW-Caterpillar" type="animal">Caterpillar</name>.</p>
                 <p>As <name ref="#AiW-Alice" type="person">Alice</name> could not think of any good reason and the <name ref="#AiW-Caterpillar" type="animal">Caterpillar</name> seemed to be in a <emph>very</emph> unpleasant state of mind, she turned away.</p>
