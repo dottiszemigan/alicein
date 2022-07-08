@@ -28,7 +28,7 @@
         <p><xsl:apply-templates/></p>
     </xsl:template>
     
-    <xsl:template match="//tei:add">
+    <xsl:template match="//tei:pb">
         <xsl:choose>
             <xsl:when test="@pb='facs'">
                 <span style="center; position: absolute;">
