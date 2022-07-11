@@ -5,10 +5,10 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
-        <fileDesc>
+        <fileDesc xml:id="AiW">
             <titleStmt>
                 <title type="statement">ALICE'S ADVENTURES IN WONDERLAND</title>
-                <title type="distinctive">THE "STORYLAND" SERIES</title>
+		    <title type="distinctive">THE <quote>STORYLAND</quote> SERIES</title>
                 <author>Carroll, Lewis, 1832-1898.</author>
                 <respStmt xml:id="PGB">
                     <orgName ref="https://www.gutenberg.org/">The Project Gutenberg</orgName>
@@ -38,7 +38,7 @@
                     <author>Carroll, Lewis, 1832-1898.</author>
                     <title type="statement">ALICE'S ADVENTURES IN WONDERLAND</title>
                     
-                    <title type="distinctive">THE STORYLAND SERIES</title>
+			<title type="distinctive">THE <quote>STORYLAND</quote> SERIES</title>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -118,7 +118,7 @@
                 <p>By this time, <name ref="#AiW-Alice" type="person">Alice</name> had found her way into a tidy little room with a table in the window, and on it a fan and two or three pairs of tiny white kid-gloves; she took up the fan and a pair of the gloves and was just going to leave the room, when her eyes fell upon a little bottle that stood near the looking-glass. She uncorked it and put it to her lips, saying to herself, <quote>I do hope it'll make me grow large again, for, really, I'm quite tired of being such a tiny little thing!</quote></p>
                 <p>Before she had drunk half the bottle, she found her head pressing against the ceiling, and had to stoop to save her neck from being broken. She hastily put down the bottle, remarking, <quote>That's quite enough—I hope I sha'n't grow any more.</quote> </p>
                 <p>Alas! It was too late to wish that! She went on growing and growing and very soon she had to kneel down on the floor. Still she went on growing, and, as a last resource, she put one arm out of the window and one foot up the chimney, and said to herself, <quote>Now I can do no more, whatever happens. What <emph>will</emph> become of me?</quote> </p> 
-		    <pb n="22" id="facsimile2" facs="https://iiif.bodleian.ox.ac.uk/iiif/image/cfb37cc0-2cf3-4054-a7ca-4aa4b2e3c0df/info.json"/>
+		    <pb n="22" id="facsimile2" facs="https://iiif.bodleian.ox.ac.uk/iiif/image/333dbc25-9ef8-4654-8cc0-e5c88a4fb758"/>
                 <p>Luckily for <name ref="#AiW-Alice" type="person">Alice</name>, the little magic bottle had now had its full effect and she grew no larger. After a few minutes she heard a voice outside and stopped to listen. </p>
                 <p><quote>Mary Ann! Mary Ann!</quote> said the voice. <quote>Fetch me my gloves this moment!</quote> Then came a little pattering of feet on the stairs. <name ref="#AiW-Alice" type="person">Alice</name> knew it was the <name ref="#AiW-White-Rabbit" type="animal">Rabbit</name> coming to look for her and she trembled till she shook the house, quite forgetting that she was now about a thousand times as large as the <name ref="#AiW-White-Rabbit" type="animal">Rabbit</name> and had no reason to be afraid of it. </p>
                 <p>Presently the <name ref="#AiW-White-Rabbit" type="animal">Rabbit</name> came up to the door and tried to open it; but as the door opened inwards and <name ref="#AiW-Alice" type="person">Alice</name>'s elbow was pressed hard against it, that attempt proved a failure. <name ref="#AiW-Alice" type="person">Alice</name> heard it say to itself, <quote>Then I'll go 'round and get in at the window.</quote> </p>
@@ -185,7 +185,7 @@
                 <p><quote>It matters a good deal to <emph>me</emph>,</quote> said <name ref="#AiW-Alice" type="person">Alice</name> hastily; <quote>but I'm not looking for eggs, as it happens, and if I was, I shouldn't want <emph>yours</emph>—I don't like them raw.</quote></p>
                 <p><quote>Well, be off, then!</quote> said the <name ref="#AiW-Pigeon" type="animal">Pigeon</name> in a sulky tone, as it settled down again into its nest. <name ref="#AiW-Alice" type="person">Alice</name> crouched down among the trees as well as she could, for her neck kept getting entangled among the branches, and every now and then she had to stop and untwist it. After awhile she remembered that she still held the pieces of mushroom in her hands, and she set to work very carefully, nibbling first at one and then at the other, and growing sometimes taller and sometimes shorter, until she had succeeded in bringing herself down to her usual height.</p>
                 <p>It was so long since she had been anything near the right size that it felt quite strange at first. <quote>The next thing is to get into that beautiful garden—how is that to be done, I wonder?</quote> As she said this, she came suddenly upon an open place, with a little house in it about four feet high. <quote>Whoever lives there,</quote> thought <name ref="#AiW-Alice" type="person">Alice</name>, <quote>it'll never do to come upon them <emph>this</emph> size; why, I should frighten them out of their wits!</quote> She did not venture to go near the house till she had brought herself down to nine inches high.</p>
-		    <pb n="31"/>
+		    <pb n="31" id="facsimile3" facs="https://iiif.bodleian.ox.ac.uk/iiif/image/3aff8c83-7dfb-4d6c-b15a-c2b40771c57c"/>
             </div1>
         </body>
     </text>
