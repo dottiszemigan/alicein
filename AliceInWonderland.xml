@@ -26,13 +26,10 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <publisher>
-                    <orgName ref="https://www.gutenberg.org/">The Project Gutenberg</orgName>
-                </publisher>
-                <date when="2006-08-12">August 12, 2006</date>                 
                 <authority>
                     <orgName ref="https://www.gutenberg.org/about/">The Project Gutenberg Literary Archive Foundation</orgName>
                 </authority>
+                <date when="2006-08-12">August 12, 2006</date>                 
                 <availability>
                     <p> Available for reuse, according to the terms of the <ref target="https://www.gutenberg.org/files/19033/19033-h/19033-h.htm">Project Gutenberg License</ref>.</p>
                 </availability>
