@@ -13,11 +13,11 @@
                 <meta charset="UTF-8"/>
             </head>
             <body>
-                <xsl:apply-templates/>
+                
                 <div class="container">
                     <div class="row">
                         <div class="col-sm">
-                            <div id="openseadragon" style="height: 300px;"></div>
+                            <div id="openseadragon" style="width: 250px; height: 100px;"></div>
                             <script src="https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/openseadragon.min.js"></script>
                             <script type="text/javascript">
                                 var viewer = OpenSeadragon({
@@ -25,7 +25,9 @@
                                 prefixUrl: "https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/images/",
                                 tileSources:   [{
                                 "@context": "http://iiif.io/api/image/2/context.json",
-                                "@id": "<xsl:value-of select="//tei:pb/@facs"/>"
+                                "@id": "<xsl:value-of select="//tei:div1/tei:pb/@facs"/>",
+                                "height": 6176,
+                                "width": 4128,
                                 "profile": [ "http://iiif.io/api/image/2/level2.json" ],
                                 "protocol": "http://iiif.io/api/image",
                                 "tiles": [{
@@ -35,6 +37,11 @@
                                 }]
                                 });
                             </script>
+                        </div>
+                        <div class="col-sm" style="margin-left: 5em">
+                            
+                            <xsl:apply-templates select="//tei:div1/tei:p"/>
+                            
                         </div>
                     </div>
                 </div>
