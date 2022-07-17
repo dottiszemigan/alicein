@@ -19,6 +19,10 @@
                     <name>Jason Isbell, </name>
                     <name>Irma Spehar.</name>
                 </respStmt>
+		    <respStmt xml:id="DBod">
+                    <orgName ref="https://digital.bodleian.ox.ac.uk/terms/">Digital Bodleian</orgName>
+                    <resp>digitalised facsimiles</resp>
+                </respStmt>
             </titleStmt>
             <editionStmt>
                 <edition>
@@ -34,13 +38,12 @@
                     <p> Available for reuse, according to the terms of the <ref target="https://www.gutenberg.org/files/19033/19033-h/19033-h.htm">Project Gutenberg License</ref>.</p>
                 </availability>
                 <idno type="url">https://www.gutenberg.org/files/19033/19033-h/19033-h.htm</idno>
-            </publicationStmt>
+	    </publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Carroll, Lewis, 1832-1898.</author>
                     <title type="statement">ALICE'S ADVENTURES IN WONDERLAND</title>
-                    
-			<title type="distinctive">THE <quote>STORYLAND</quote> SERIES</title>
+                    <title type="distinctive">THE <quote>STORYLAND</quote> SERIES</title>
                 </bibl>
             </sourceDesc>
         </fileDesc>
