@@ -32,7 +32,7 @@
                                 "protocol": "http://iiif.io/api/image",
                                 "tiles": [{
                                 "scaleFactors": [ 1, 2, 4, 8, 16, 32 ],
-                                "width": 1024
+                                "width": 1000
                                 }]
                                 }]
                                 });
@@ -40,7 +40,7 @@
                         </div>
                         <div class="col-sm" style="margin-left: 5em">
                             
-                            <xsl:apply-templates select="//tei:div1/tei:p"/>
+                            <xsl:apply-templates select="//tei:text"/>
                             
                         </div>
                     </div>
